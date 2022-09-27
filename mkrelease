@@ -40,10 +40,10 @@ shift $(( OPTIND - 1 ))
 [ "$CLEAN" ] && ./clean
 [ "$PACKAGE" ] && ./mkpkg
 
-ANNO="mpplus-bliss Version ${VERSION} Release ${RELEASE}"
+ANNO="Mpplus-Bliss Version ${VERSION} Release ${RELEASE}"
 gittag v${VERSION}r${RELEASE} ${ANNO}
 
-echo "Copy RPI Debian, Arch Linux package, and RPM to releases/${VERSION}"
+echo "Copy Debian, Arch Linux package, and RPM to releases/${VERSION}"
 
 read -p "Press Enter to continue" answer
 
