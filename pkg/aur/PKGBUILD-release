@@ -11,7 +11,7 @@ pkgdesc="Blissify and Bliss-Analyze analyze and make playlists of MPD library so
 arch=('x86_64' 'armv7h')
 url="https://github.com/doctorfree/mpplus-bliss"
 license=('GPL3')
-depends=(ffmpeg4.4)
+depends=(ffmpeg4.4 sqlite)
 makedepends=(cargo clang git pandoc zip)
 install=mpplus-bliss.install
 source=("${pkgname}::git+https://github.com/doctorfree/mpplus-bliss.git#tag=${pkgver}")

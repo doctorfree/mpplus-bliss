@@ -3,6 +3,7 @@ Version:    %{_version}
 Release:    %{_release}%{?dist}
 BuildArch:  x86_64
 AutoReqProv: no
+Requires: sqlite
 URL:        https://github.com/doctorfree/mpplus-bliss
 Vendor:     Doctorwhen's Bodacious Laboratory
 Packager:   ronaldrecord@gmail.com

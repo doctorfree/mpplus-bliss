@@ -13,6 +13,7 @@ pkgbase = mpplus-bliss
 	makedepends = zip
 	depends = ffmpeg4.4
 	depends = clang
+	depends = sqlite
 	source = mpplus-bliss::git+https://github.com/doctorfree/mpplus-bliss.git
 	sha256sums = SKIP
 

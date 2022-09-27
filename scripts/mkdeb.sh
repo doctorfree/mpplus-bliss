@@ -99,7 +99,7 @@ Version: ${PKG_VER}-${PKG_REL}
 Section: sound
 Priority: optional
 Architecture: ${ARCH}
-Depends: ffmpeg, libavformat58 (>= 7:4.1), libavcodec58 (>= 7:4.2), libavutil56 (>= 7:4.0)
+Depends: ffmpeg, libavformat58 (>= 7:4.1), libavcodec58 (>= 7:4.2), libavutil56 (>= 7:4.0), libsqlite3-0 (>= 3.6.0)
 Maintainer: ${DEBFULLNAME} <${DEBEMAIL}>
 Installed-Size: 9000
 Build-Depends: debhelper (>= 11)

@@ -16,7 +16,7 @@ fedora=
 if [ "${debian}" ]
 then
   PKGS="build-essential clang ffmpeg libavcodec-dev libavformat-dev \
-        libavutil-dev pkg-config"
+        libavutil-dev libsqlite3-dev pkg-config"
   if [ "$1" == "-r" ]
   then
     sudo apt remove ${PKGS}
@@ -26,7 +26,7 @@ then
 else
   if [ "${arch}" ]
   then
-    PKGS="base-devel clang ffmpeg4.4 cargo"
+    PKGS="base-devel clang ffmpeg4.4 cargo sqlite"
     if [ "$1" == "-r" ]
     then
       sudo pacman -Rs ${PKGS}
@@ -50,7 +50,7 @@ else
       NONFREE="nonfree/fedora"
       RELRPM="rpmfusion-free-release-${FEDVER}.noarch.rpm"
       NONRPM="rpmfusion-nonfree-release-${FEDVER}.noarch.rpm"
-      PKGS="clang-devel"
+      PKGS="clang-devel sqlite-devel"
       if [ "$1" == "-r" ]
       then
         sudo ${PINS} -y remove compat-ffmpeg4-devel compat-ffmpeg4
@@ -93,7 +93,7 @@ else
         NONFREE="nonfree/el"
         RELRPM="rpmfusion-free-release-${CENVER}.noarch.rpm"
         NONRPM="rpmfusion-nonfree-release-${CENVER}.noarch.rpm"
-        PKGS="clang-devel"
+        PKGS="clang-devel sqlite-devel"
         if [ "$1" == "-r" ]
         then
           sudo ${PINS} -y remove ffmpeg-devel
