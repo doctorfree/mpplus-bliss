@@ -104,7 +104,6 @@ Mpplus-Bliss is compiled and packaged for installation on:
 - Arch Linux (x86_64)
 - CentOS Linux (x86_64)
 - Fedora Linux (x86_64)
-- Raspberry Pi OS (armhf)
 - Ubuntu Linux (amd64)
 
 ## Installation
@@ -125,8 +124,6 @@ Mpplus-Bliss has been tested successfully on the following platforms:
     - `mpplus-bliss_<version>-<release>.x86_64.rpm`
 - **CentOS Linux 8**
     - `mpplus-bliss_<version>-<release>.x86_64.rpm`
-- **Raspbian Linux 11**
-    - `mpplus-bliss_<version>-<release>.armhf.deb`
 
 ### Debian package installation
 
@@ -149,16 +146,6 @@ sudo apt install ./mpplus-bliss_<version>-<release>.amd64.deb
 or
 ```console
 sudo dpkg -i ./mpplus-bliss_<version>-<release>.amd64.deb
-```
-
-or, on a Raspberry Pi:
-
-```console
-sudo apt install ./mpplus-bliss_<version>-<release>.armhf.deb
-```
-or
-```console
-sudo dpkg -i ./mpplus-bliss_<version>-<release>.armhf.deb
 ```
 
 **NOTE:** In some cases you may see a warning message when installing the
