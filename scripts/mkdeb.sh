@@ -101,7 +101,7 @@ Priority: optional
 Architecture: ${ARCH}
 Depends: ffmpeg, libavformat58 (>= 7:4.1), libavcodec58 (>= 7:4.2), libavutil56 (>= 7:4.0), libsqlite3-0 (>= 3.6.0)
 Maintainer: ${DEBFULLNAME} <${DEBEMAIL}>
-Installed-Size: 9000
+Installed-Size: 14000
 Build-Depends: debhelper (>= 11)
 Homepage: https://github.com/doctorfree/mpplus-bliss
 Description: Blissify
