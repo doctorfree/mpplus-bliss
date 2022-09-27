@@ -6,6 +6,5 @@ All notable changes to this project will be documented in this file.
 * Arch Linux build and packaging support
 * CentOS Linux build and packaging support
 * Fedora Linux build and packaging support
-* Raspberry Pi OS build and packaging support
 * Ubuntu Linux build and packaging support
 * Integration with MusicPlayerPlus 
