@@ -1,0 +1,9 @@
+post_install() {
+  printf "%b\n" "${mppin}"
+}
+
+read -d '' mppin <<'EOF'
+View additional details at:
+  - https://github.com/doctorfree/mpplus-bliss#readme
+  - https://github.com/doctorfree/mpplus-bliss/wiki
+EOF
