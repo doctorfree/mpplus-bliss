@@ -5,7 +5,7 @@
 #   git describe --long | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
 #
 pkgname=mpplus-bliss
-pkgver=v1.0.0r1
+pkgver=v1.0.1r1
 pkgrel=1
 pkgdesc="Blissify and Bliss-Analyze analyze and make playlists of MPD library songs that sound alike"
 arch=('x86_64' 'armv7h')
