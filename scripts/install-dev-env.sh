@@ -16,7 +16,7 @@ fedora=
 if [ "${debian}" ]
 then
   PKGS="build-essential clang ffmpeg libavcodec-dev libavformat-dev \
-        libavutil-dev libsqlite3-dev pkg-config"
+        libavdevice-dev libavutil-dev libsqlite3-dev pkg-config"
   if [ "$1" == "-r" ]
   then
     sudo apt remove ${PKGS}
