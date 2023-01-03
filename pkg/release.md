@@ -1,15 +1,6 @@
-[Blissify](https://crates.io/crates/blissify) is an open source program used to
-make playlists of songs that sound alike from an MPD track library, \u00e0 la
-Spotify radio. Under the hood, it is an MPD plugin for bliss. Blissify needs
-first to analyze your music library, i.e. compute and store a series of features
-from your songs, extracting the tempo, timbre, loudness, etc. After that, it is
-ready to make playlists: play a song to start from, run blissify playlist 30,
-and voil\u00e0! You have a playlist of 30 songs that sound like your first track.
+[Blissify](https://crates.io/crates/blissify) is an open source program used to make playlists of songs that sound alike from an MPD track library,  a la Spotify radio. Under the hood, it is an MPD plugin for bliss. Blissify needs first to analyze your music library, i.e. compute and store a series of features from your songs, extracting the tempo, timbre, loudness, etc. After that, it is ready to make playlists: play a song to start from, run blissify playlist 30, and you have a playlist of 30 songs that sound like your first track.
 
-The `mpplus-bliss` project integrates `blissify` and `bliss-analyze` with the
-[MusicPlayerPlus](https://github.com/doctorfree/MusicPlayerPlus) project as well
-as providing these utilities in native installation packaged format for a
-variety of Linux platforms.
+The `mpplus-bliss` project integrates `blissify` and `bliss-analyze` with the [MusicPlayerPlus](https://github.com/doctorfree/MusicPlayerPlus) project as well as providing these utilities in native installation packaged format for a variety of Linux platforms.
 
 ## Installation
 
