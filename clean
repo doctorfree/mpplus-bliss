@@ -1,3 +1,4 @@
 #!/bin/bash
 
 sudo rm -rf dist releases blissify bliss-analyze mpplus-bliss
+sudo rm -f .package_note-mpplus-bliss-*.ld
