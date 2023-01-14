@@ -64,7 +64,7 @@ export PKG_CONFIG_PATH="${PKGPATH}:/usr/lib/pkgconfig"
 platform=
 [ -f /etc/os-release ] && . /etc/os-release
 [ "${ID_LIKE}" == "debian" ] && platform=debian
-[ "${ID}" == "arch" ] && platform=arch
+[ "${ID}" == "arch" ] || [ "${ID_LIKE}" == "arch" ] && platform=arch
 have_dpkg=`type -p dpkg`
 [ "${have_dpkg}" ] && arch=`dpkg --print-architecture`
 if [ "${arch}" == "armhf" ]

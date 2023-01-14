@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## mpplus-bliss-1.0.1r2 (2023-01-15)
+* Support for Arch-like systems (e.g. Manjaro Linux)
+
 ## mpplus-bliss-1.0.1r1 (2023-01-03)
 * Updated to latest Blissify from upstream
 
